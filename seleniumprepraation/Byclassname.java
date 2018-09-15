@@ -12,7 +12,7 @@ public class Byclassname {
 		System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver");
 		driver = new ChromeDriver();
 		driver.manage().window().fullscreen();
-		String r="https://learn.letskodeit.com/p/practice";
+		String r="https://www.google.com/";
 		driver.get(r);
 		driver.findElement(By.className("inputs")).sendKeys("O..Hello");
 		
